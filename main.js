@@ -4,11 +4,12 @@
  * 1. Open the website
  * 2. Do the tutorials
  * 3. Go into a level
- * 4. Open Console (normally do ctrl + i)
+ * 4. Open Console (normally do ctrl + j)
  * 5. Paste the script and press ENTER
+ * note: you have to paste it every time you open a new level
  */
 
-// PLEASE NOTE: When delay (in ms between two strokes) is too low, the site might bug out and the result page will not be shown
+// PLEASE NOTE: When delay (in ms between two strokes) is too low, the site might bug out and the result page will not be shown. Try only going down to 40-50
 const minDelay = 60;
 const maxDelay = 60;
 
